@@ -8,6 +8,7 @@
     justify-content: space-between;
     padding: 0 8vw;
     align-items: center;
+    z-index: 1;
 }
 
 .top__logo{
@@ -37,7 +38,7 @@
     background-clip: text;
     background-position: left;
     border-bottom: 2px solid transparent;
-    transition: background-position 1.3s;
+    transition: background-position 1s;
 }
 
 .top__navigation__item--link:hover{

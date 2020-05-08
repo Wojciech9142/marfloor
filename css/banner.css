@@ -1,0 +1,53 @@
+.banner{
+    background: url("https://www.publicdomainpictures.net/pictures/220000/velka/living-room-1491698999utS.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+
+.banner__header{
+    font-size: 4.5em;
+    margin: 1em 0;
+    color: rgb(170,170,170,1);
+    font-family: 'Archivo Narrow';
+}
+
+.banner__description{
+    font-size: 1.3em;
+    color: rgb(200,200,200);
+    width: 30%;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.banner__buttons--link{
+    width: 550px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    transition: background-color .6s;
+}
+
+.banner__buttons--link:hover{
+    background-color: rgba(0,0,0,.3);
+}
