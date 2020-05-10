@@ -36,6 +36,13 @@
     }
 }
 
+@media (max-width:420px){
+    .banner__header{
+        margin: 0;
+        text-align: center;
+    }
+}
+
 .banner__description{
     font-size: 1.3em;
     color: rgb(200,200,200);
@@ -76,6 +83,12 @@
 @media (max-width: 1040px){
     .banner__buttons--link{
         padding: 20px 40px;
+    }
+}
+
+@media (max-width:420px){
+    .banner__buttons--link{
+        padding: 15px 20px;
     }
 }
 
