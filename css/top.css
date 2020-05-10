@@ -14,7 +14,7 @@
 .top__logo{
     text-decoration: none;
     font-size: 3em;
-    color: black;
+    color: #f8f8f8;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
@@ -23,6 +23,12 @@
     display: flex;
     list-style: none;
     line-height: 2em;
+}
+
+@media (max-width:1040px){
+    .top__navigation{
+        display:none;
+    }
 }
 
 .top__navigation__item{
@@ -44,4 +50,37 @@
 .top__navigation__item--link:hover{
     border-bottom: 2px solid black;
     background-position: right;
+}
+
+.top__menu_burger{
+    display: none;
+    min-width: 60px;
+    height: 10px;
+    background-color: #f8f8f8;
+    position: relative;
+    cursor: pointer;
+}
+
+.top__menu_burger::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background: #f8f8f8;
+    top: 20px;
+}
+
+.top__menu_burger::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background: #f8f8f8;
+    top: -20px;
+}
+
+@media (max-width:1040px){
+    .top__menu_burger{
+        display:block;
+    }
 }
