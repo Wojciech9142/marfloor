@@ -36,16 +36,29 @@
     width: 30%;
     text-align: center;
     line-height: 1.6em;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1040px){
+    .banner__description{
+        font-size: 1.5em;
+        width: 60%;
+    }
 }
 
 .banner__buttons--link{
-    width: 550px;
     font-size: 1.2em;
     color: white;
     text-decoration: none;
     border: 2px solid gray;
     padding: 10px 20px;
     transition: background-color .6s;
+}
+
+@media (max-width: 1040px){
+    .banner__buttons--link{
+        padding: 20px 40px;
+    }
 }
 
 .banner__buttons--link:hover{
