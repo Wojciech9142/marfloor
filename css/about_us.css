@@ -14,6 +14,13 @@
     }
 }
 
+@media (max-width: 430px){
+    .about_us{
+        flex-direction: column;
+        width: 100vw;
+    }
+}
+
 .about_us__header{
     font-size: 2.5em;
     flex: 2;
@@ -22,9 +29,22 @@
     text-align: right;
 }
 
+@media (max-width: 430px){
+    .about_us__header{
+        border: none;
+        text-align: center;
+    }
+}
+
 .about_us__description{
     font-size: 1.3em;
     line-height: 1.6em;
     flex: 4;
     margin-left: 20px;
+}
+
+@media (max-width: 430px){
+    .about_us__description{
+        text-align: justify;
+    }
 }
