@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/about_us.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header class="top">
@@ -86,7 +87,24 @@
         </section>
 
         <section class="contact">
-            
+            <article class="contact__text">
+                <h3 class="contact__text--header">Napisz do nas, a my ci pomożemy!</h3>
+                <p class="contact__text--description">Masz pytanie inwestycyjne? A może chciałbyś abyśmy doradzili w kwesti wyboru podłogi? napoisz a z pewnością odpiszemy i pomożemy jak najbardziej potrafimy! </p>
+            </article>
+            <form action="#" class="contact__form">
+                <label for="name" class="contact__form__description">Imię i nazwisko</label>
+                <input type="text" id="name" name="name" class="contact__form__area" required>
+
+                <label for="email" class="contact__form__description">Adres e-mail (do kontaktu zwrotnego)</label>
+                <input type="email" id="email" name="email" class="contact__form__area" required>
+
+                <label for="telephone" class="contact__form__description">Numer telefonu (do kontaktu zwrotnego)</label>
+                <input type="tel" id="telephone" name="telephone" class="contact__form__area" required>
+
+                <label for="content" class="contact__form__description">Treść wiadomości</label>
+                <textarea name="message" class="contact__form__content" id="content" required></textarea>
+                <input type="submit" value="Wyślij" class="contact__form__button">
+            </form>
         </section>
     </main>
 </body>
