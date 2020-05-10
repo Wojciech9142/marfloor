@@ -13,6 +13,12 @@
     }
 }
 
+@media (max-width: 700px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+}
+
 .contact__text{
     padding-right: 25px;
     text-align: right;
@@ -21,9 +27,22 @@
     justify-content: center;
 }
 
+@media (max-width: 700px){
+    .contact__text{
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
 .contact__text--header{
     font-size: 1.8em;
     padding-left: 30%;
+}
+
+@media (max-width: 700px){
+    .contact__text--header{
+        padding-left: 0;
+    }
 }
 
 .contact__text--description{
