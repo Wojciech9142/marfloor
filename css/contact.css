@@ -7,6 +7,12 @@
     color: white;
 }
 
+@media (max-width: 1040px){
+    .contact{
+        padding: 40px 10vw;
+    }
+}
+
 .contact__text{
     padding-right: 25px;
     text-align: right;
