@@ -5,7 +5,7 @@
     margin: 0 auto;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
 @media (max-width: 1450px){
@@ -24,6 +24,31 @@
     .gallery{
         width: 95vw;
         grid-template-columns: 1fr;
+    }
+}
+
+.gallery__header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+@media (max-width: 1450px){
+    .gallery__header{
+        grid-column-end: 4;
+    }
+}
+
+@media (max-width: 1170px){
+    .gallery__header{
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 700px){
+    .gallery__header{
+        grid-column-end: 2;
     }
 }
 

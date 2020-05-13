@@ -92,6 +92,16 @@
     }
 }
 
+@media (max-width:325px){
+    .banner__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner__buttons--link{
+        margin: 5px 0;
+    }
+}
+
 .banner__buttons--link:hover{
     background-color: rgba(0,0,0,.3);
 }

@@ -1,0 +1,12 @@
+.partners{
+    width: 30vw;
+    margin: 0 auto;
+    display: flex;
+    height: 200px;
+    padding: 50px;
+}
+
+.partners__name{
+    margin: 0 20px;
+    font-size: 1.4em;
+}
