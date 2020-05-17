@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/partners.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
 </head>
 <body>
     <header class="top">
@@ -34,8 +35,29 @@
                 <a href="#contact" class="top__navigation__item--link">Kontakt</a>
             </li>
         </ul>
-        <div class="top__menu_burger"></div>
+        <div onclick="showmenu()" class="top__menu_burger"></div>
     </header>
+
+    <aside id="mobile_menu" class="mobile_menu">
+        <header class="mobile_menu__top">
+            <img src="images/icons/mobile-menu-back.png" onClick="hidemenu()" alt="Powrót" class="mobile_menu__top-image">
+            <p class="mobile_menu__top-description">Powrót</p>
+        </header>
+        <ul class="mobile_menu__navigation">
+            <li class="mobile_menu__navigation--item" onClick="hidemenu()">
+                <a class="mobile_menu__navigation--item-a" href="#">Home</a>
+            </li>
+            <li class="mobile_menu__navigation--item" onClick="hidemenu()">
+                <a class="mobile_menu__navigation--item-a" href="#about_us">O firmie</a>
+            </li>
+            <li class="mobile_menu__navigation--item" onClick="hidemenu()">
+                <a class="mobile_menu__navigation--item-a" href="#gallery">Galeria</a>
+            </li>
+            <li class="mobile_menu__navigation--item" onClick="hidemenu()">
+                <a class="mobile_menu__navigation--item-a" href="#contact">Kontakt</a>
+            </li>
+        </ul>
+    </aside>
 
     <main class="container">
         <section class="banner">
@@ -196,5 +218,7 @@
     <footer class="page_footer">
         Copyright &copy; 2020 Marcin Kotowski 
     </footer>
+
+    <script src="js/mobile_menu.js"></script>
 </body>
 </html>
