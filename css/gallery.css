@@ -63,3 +63,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.gallery__item--image{
+    transition: .3s;
+    z-index: 0;
+}
+
+.gallery__item--description{
+    z-index: 0;
+    transition: .3s;
+}
+
+.gallery__item--image:hover, .gallery__item--image:hover ~ .gallery__item--description{
+    transform: scale(1.6);
+    color: white;
+}
