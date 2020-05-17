@@ -64,6 +64,18 @@
     cursor: text;
 }
 
+@media (max-width:460px){
+    .contact__form__description{
+        font-size: .9em;
+    }
+}
+
+@media (max-width:360px){
+    .contact__form__description{
+        font-size: .8em;
+    }
+}
+
 .contact__form__area{
     height: 2.3em;
     font-size: 1.3em;
