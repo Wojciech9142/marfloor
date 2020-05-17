@@ -67,6 +67,7 @@
 .gallery__item--image{
     transition: .3s;
     z-index: 0;
+    width: 100%;
 }
 
 .gallery__item--description{
