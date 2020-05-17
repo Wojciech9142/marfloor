@@ -2,11 +2,30 @@
     width: 30vw;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     height: 200px;
-    padding: 50px;
+    text-align: center;
 }
 
-.partners__name{
-    margin: 0 20px;
+@media (max-width: 680px){
+    .partners{
+        width: 60vw;
+    }
+}
+
+@media (max-width: 380px){
+    .partners{
+        padding: 0;
+        width: 90vw;
+    }
+}
+
+.partners__list{
+    list-style: none;
+    display: flex;
     font-size: 1.4em;
+}
+
+.partners__list__item{
+    margin: 0 10px;
 }
