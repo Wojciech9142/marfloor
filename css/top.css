@@ -19,6 +19,36 @@
     font-weight: 900;
 }
 
+@media(max-width: 1200px){
+    .top__logo{
+        font-size: 2.4em;
+    }
+}
+
+@media(max-width: 550px){
+    .top__logo{
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 450px){
+    .top__logo{
+        font-size: 1.8em;
+    }
+}
+
+@media(max-width: 400px){
+    .top__logo{
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 350px){
+    .top__logo{
+        font-size: 2em;
+    }
+}
+
 .top__navigation{
     display: flex;
     list-style: none;

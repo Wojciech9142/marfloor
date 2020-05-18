@@ -3,17 +3,23 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
     text-align: center;
 }
 
-@media (max-width: 680px){
+@media (max-width:1235px){
+    .partners{
+        width:50vw;
+    }
+}
+
+@media (max-width: 700px){
     .partners{
         width: 60vw;
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 600px){
     .partners{
         padding: 0;
         width: 90vw;
@@ -26,7 +32,28 @@
     font-size: 1.4em;
 }
 
+@media (max-width: 450px){
+    .partners__list{
+        flex-direction: column;
+        padding: 0
+    }
+}
+
 .partners__list__item{
     margin: 0 10px 0 10px;
     padding: 0;
+    flex:1;
+    text-align: center;
+}
+
+@media (max-width: 450px){
+    .partners__list__item{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 300px){
+    .partners__list__item{
+        margin:0 0 13px 0;
+    }
 }

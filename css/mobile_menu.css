@@ -8,6 +8,13 @@
     background-color: white;
     transform: translateX(100%);
     transition: .3s;
+    display: none;
+}
+
+@media (max-width: 1040px){
+    .mobile_menu{
+        display: inherit;
+    }
 }
 
 .mobile_menu__top{
