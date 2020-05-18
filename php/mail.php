@@ -17,7 +17,7 @@ ob_start();
 
     $theme = "Nowa wiadomośćze strony marfloor.pl od ".$name;
 
-    $email_adress = "malwina-chabera-kotowska@wp.pl";
+    $email_adress = "marfloor@o2.pl";
 
     mail($email_adress, $theme, $content);
 
